@@ -1678,3 +1678,12 @@ section,
   font-size: 1em;
   /* match the counter size */
 }
+
+@media only screen and (max-width: 767px) {
+  .certificate-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
